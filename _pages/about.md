@@ -1,26 +1,35 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Researcher in Computer Vision
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # more_info: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+announcement: >
+  I believe that <b>all available data, even incomplete data and data with missing, incomplete, or partial annotations should be exploited to build robust and flexible machine learning models</b>.
 ---
+<!-- <span style="font-size: 1.0rem;"> I am currently a postdoctoral fellow at Harvard Medical School working with [Sandy Wells](https://scholar.google.com/citations?user=DwXLsT8AAAAJ&hl=fr). Prior to that, I did my PhD under the supervision of [Tom Vercauteren](https://cai4cai.ml/) at King's College London. Here is a short CV.</span> -->
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a postdoctoral fellow at Harvard Medical School working with [Sandy Wells](https://scholar.google.com/citations?user=DwXLsT8AAAAJ&hl=fr). Prior to that, I did my PhD under the supervision of [Tom Vercauteren](https://cai4cai.ml/) at King's College London. Here is a short CV.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+{% include announcement.html %}
+
+I am primarily interested in computer vision with a focus on medical applications. My main research interests are:
+- **Weakly Supervised Learning**: Learning image segmentation and registration using weak labels (partial annotations, scribbles, points).
+- **Domain Adaptation**: Transfering the knowledge learned from one modality to another.
+- **Representation Learning**: Discovering joint representations of multimodal data to handle incomplete sets of input data at training and inference times.
+
+Contact: <span class="font-weight-bold">name.surname@bwh.harvard.edu</span>

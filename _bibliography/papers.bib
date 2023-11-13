@@ -1,84 +1,359 @@
 ---
 ---
+@InProceedings{10.1007/978-3-030-32245-8_9,
+author="Dorent, Reuben
+and Joutard, Samuel
+and Modat, Marc
+and Ourselin, S{\'e}bastien
+and Vercauteren, Tom",
+title="Hetero-Modal Variational Encoder-Decoder for Joint Modality Completion and Segmentation",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2019",
+year="2019",
+publisher="Springer International Publishing",
+address="Cham",
+pages="74--82",
+abstract={We propose a new deep learning method for tumour segmentation when dealing with missing imaging modalities. Instead of producing one network for each possible subset of observed modalities or using arithmetic operations to combine feature maps, our hetero-modal variational 3D encoder-decoder independently embeds all observed modalities into a shared latent representation. Missing data and tumour segmentation can be then generated from this embedding. In our scenario, the input is a random subset of modalities. We demonstrate that the optimisation problem can be seen as a mixture sampling. In addition to this, we introduce a new network architecture building upon both the 3D U-Net and the Multi-Modal Variational Auto-Encoder (MVAE). Finally, we evaluate our method on BraTS2018 using subsets of the imaging modalities as input. Our model outperforms the current state-of-the-art method for dealing with missing modalities and achieves similar performance to the subset-specific equivalent networks.},
+bibtex_show={true},
+pdf={https://arxiv.org/pdf/1907.11150.pdf},
+code={https://github.com/ReubenDo/U-HVED},
+doi={10.1007/978-3-030-32245-8_9},
+preview={brownian-motion.gif}
+}
 
-@string{aps = {American Physical Society,}}
+@InProceedings{Eisenmann_2023_CVPR,
+    author    = {Eisenmann, Matthias and Reinke, Annika and ... and Dorent, Reuben and Egger, Jan and Ellis, David G. and Engelhardt, Sandy and Ganz, Melanie and Ghatwary, Noha and Girard, Gabriel and Godau, Patrick and Gupta, Anubha and Hansen, Lasse and Harada, Kanako and Heinrich, Mattias P. and Heller, Nicholas and Hering, Alessa and Huaulm\'e, Arnaud and Jannin, Pierre and Kavur, Ali Emre and Kodym, Old\v{r}ich and Kozubek, Michal and Li, Jianning and Li, Hongwei and Ma, Jun and Mart{\'\i}n-Isla, Carlos and Menze, Bjoern and Noble, Alison and Oreiller, Valentin and Padoy, Nicolas and Pati, Sarthak and Payette, Kelly and R\"adsch, Tim and Rafael-Pati\~no, Jonathan and Bawa, Vivek Singh and Speidel, Stefanie and Sudre, Carole H. and van Wijnen, Kimberlin and Wagner, Martin and Wei, Donglai and Yamlahi, Amine and Yap, Moi Hoon and Yuan, Chun and Zenk, Maximilian and Zia, Aneeq and Zimmerer, David and Aydogan, Dogu Baran and Bhattarai, Binod and Bloch, Louise and Br\"ungel, Raphael and Cho, Jihoon and Choi, Chanyeol and Dou, Qi and Ezhov, Ivan and Friedrich, Christoph M. and Fuller, Clifton D. and Gaire, Rebati Raman and Galdran, Adrian and Faura, \'Alvaro Garc{\'\i}a and Grammatikopoulou, Maria and Hong, SeulGi and Jahanifar, Mostafa and Jang, Ikbeom and Kadkhodamohammadi, Abdolrahim and Kang, Inha and Kofler, Florian and Kondo, Satoshi and Kuijf, Hugo and Li, Mingxing and Luu, Minh and Martin\v{c}i\v{c}, Toma\v{z} and Morais, Pedro and Naser, Mohamed A. and Oliveira, Bruno and Owen, David and Pang, Subeen and Park, Jinah and Park, Sung-Hong and Plotka, Szymon and Puybareau, Elodie and Rajpoot, Nasir and Ryu, Kanghyun and Saeed, Numan and Shephard, Adam and Shi, Pengcheng and \v{S}tepec, Dejan and Subedi, Ronast and Tochon, Guillaume and Torres, Helena R. and Urien, Helene and Vila\c{c}a, Jo\~ao L. and Wahid, Kareem A. and Wang, Haojie and Wang, Jiacheng and Wang, Liansheng and Wang, Xiyue and Wiestler, Benedikt and Wodzinski, Marek and Xia, Fangfang and Xie, Juanying and Xiong, Zhiwei and Yang, Sen and Yang, Yanwu and Zhao, Zixuan and Maier-Hein, Klaus and J\"ager, Paul F. and Kopp-Schneider, Annette and Maier-Hein, Lena},
+    title     = {Why Is the Winner the Best?},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {19955-19966},
+    max_author_limit={4},
+    n_first_authors={1},
+    pdf={https://arxiv.org/pdf/2303.17719.pdf},
+    abstract={International benchmarking competitions have become fundamental for the comparative performance assessment of image analysis methods. However, little attention has been given to investigating what can be learnt from these competitions. Do they really generate scientific progress? What are common and successful participation strategies? What makes a solution superior to a competing method? To address this gap in the literature, we performed a multi-center study with all 80 competitions that were conducted in the scope of IEEE ISBI 2021 and MICCAI 2021. Statistical analyses performed based on comprehensive descriptions of the submitted algorithms linked to their rank as well as the underlying participation strategies revealed common characteristics of winning solutions. These typically include the use of multi-task learning (63%) and/or multi-stage pipelines (61%), and a focus on augmentation (100%), image preprocessing (97%), data curation (79%), and postprocessing (66%). The "typical" lead of a winning team is a computer scientist with a doctoral degree, five years of experience in biomedical image analysis, and four years of experience in deep learning. Two core general development strategies stood out for highly-ranked teams: the reflection of the metrics in the method design and the focus on analyzing and handling failure cases. According to the organizers, 43% of the winning algorithms exceeded the state of the art but only 11% completely solved the respective domain problem. The insights of our study could help researchers (1) improve algorithm development strategies when approaching new problems, and (2) focus on open research questions revealed by this work. },
+    bibtex_show={true},
+    slides={https://www.youtube.com/watch?v=aURkx61EDjo},
+}
 
-@book{einstein1956investigations,
+@INPROCEEDINGS{10230549,
+  author={Lebrat, Léo and Cruz, Rodrigo Santa and Dorent, Reuben and Yaksic, Javier Urriola and Pagnozzi, Alex and Belous, Gregg and Bourgeat, Pierrick and Fripp, Jurgen and Fookes, Clinton and Salvado, Olivier},
+  booktitle={2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)}, 
+  title={Generalization Properties of Geometric 3D Deep Learning Models for Medical Segmentation}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-5},
+  abstract={Recent advances in medical Deep Learning (DL) have enabled the significant reduction in time required to extract anatomical segmentations from 3-Dimensional images in an unprecedented manner. Among these methods, supervised segmentation-based approaches using variations of the UNet architecture remain extremely popular. However, these methods remain tied to the input images’ resolution, and their generalisation performance relies heavily on the data distribution over the training dataset. Recently, a new family of approaches based on 3D geometric DL has emerged. These approaches encompass both implicit and explicit surface representation methods and promises to represent a 3D volume using a continuous representation of its surface whilst conserving its topological properties. It has been conjectured that these geometrical methods are more robust to out-of-distribution data and have increased generalisation properties. In this paper, we test these hypotheses for the challenging task of cortical surface reconstruction (CSR) using recently proposed architectures.},
+  keywords={},
+  doi={10.1109/ISBI53787.2023.10230549},
+  ISSN={1945-8452},
+  month={April},
+  n_first_authors={1},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
+  }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+
+@InProceedings{pmlr-v102-dorent19a,
+  title = 	 {Learning joint lesion and tissue segmentation from task-specific hetero-modal datasets},
+  author =       {Dorent, Reuben and Li, Wenqi and Ekanayake, Jinendra and Ourselin, Sebastien and Vercauteren, Tom},
+  booktitle = 	 {Proceedings of The 2nd International Conference on Medical Imaging with Deep Learning},
+  pages = 	 {164--174},
+  year = 	 {2019},
+  editor = 	 {Cardoso, M. Jorge and Feragen, Aasa and Glocker, Ben and Konukoglu, Ender and Oguz, Ipek and Unal, Gozde and Vercauteren, Tom},
+  volume = 	 {102},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v102/dorent19a/dorent19a.pdf},
+  url = 	 {https://proceedings.mlr.press/v102/dorent19a.html},
+  abstract = 	 {Brain tissue segmentation from multimodal MRI is a key building block of many neuroscience analysis pipelines. It could also play an important role in many clinical imaging scenarios. Established tissue segmentation approaches have however not been developed to cope with large anatomical changes resulting from pathology. The effect of the presence of brain lesions, for example, on their performance is thus currently uncontrolled and practically unpredictable. Contrastingly, with the advent of deep neural networks (DNNs), segmentation of brain lesions has matured significantly and is achieving performance levels making it of interest for clinical use. However, few existing approaches allow for jointly segmenting normal tissue and brain lesions. Developing a DNN for such joint task is currently hampered by the fact that annotated datasets typically address only one specific task and rely on a task-specific hetero-modal imaging protocol. In this work, we propose a novel approach to build a joint tissue and lesion segmentation model from task-specific hetero-modal and partially annotated datasets. Starting from a variational formulation of the joint problem, we show how the expected risk can be decomposed and optimised empirically. We exploit an upper-bound of the risk to deal with missing imaging modalities. For each task, our approach reaches comparable performance than task-specific and fully-supervised models.},
+  pdf={https://arxiv.org/pdf/1907.03327.pdf},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  code={https://github.com/ReubenDo/jSTABL},
+  slides={https://www.youtube.com/watch?v=gWXXhLabqXA},
+  award={<em><a href="">Long Oral Presentation</a></em>},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+
+
+@article{DORENT2023102628,
+title = {CrossMoDA 2021 challenge: Benchmark of cross-modality domain adaptation techniques for vestibular schwannoma and cochlea segmentation},
+journal = {Medical Image Analysis},
+volume = {83},
+pages = {102628},
+year = {2022},
+month = 	 {Jan},
+issn = {1361-8415},
+doi = {10.1016/j.media.2022.102628},
+author = {Reuben Dorent and Aaron Kujawa and Marina Ivory and Spyridon Bakas and Nicola Rieke and Samuel Joutard and Ben Glocker and Jorge Cardoso and Marc Modat and Kayhan Batmanghelich and Arseniy Belkov and Maria Baldeon Calisto and Jae Won Choi and Benoit M. Dawant and Hexin Dong and Sergio Escalera and Yubo Fan and Lasse Hansen and Mattias P. Heinrich and Smriti Joshi and Victoriya Kashtanova and Hyeon Gyu Kim and Satoshi Kondo and Christian N. Kruse and Susana K. Lai-Yuen and Hao Li and Han Liu and Buntheng Ly and Ipek Oguz and Hyungseob Shin and Boris Shirokikh and Zixian Su and Guotai Wang and Jianghao Wu and Yanwu Xu and Kai Yao and Li Zhang and Sébastien Ourselin and Jonathan Shapey and Tom Vercauteren},
+keywords = {Domain adaptation, Segmentation, Vestibular schwannoma},
+abstract = {Domain Adaptation (DA) has recently been of strong interest in the medical imaging community. While a large variety of DA techniques have been proposed for image segmentation, most of these techniques have been validated either on private datasets or on small publicly available datasets. Moreover, these datasets mostly addressed single-class problems. To tackle these limitations, the Cross-Modality Domain Adaptation (crossMoDA) challenge was organised in conjunction with the 24th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2021). CrossMoDA is the first large and multi-class benchmark for unsupervised cross-modality Domain Adaptation. The goal of the challenge is to segment two key brain structures involved in the follow-up and treatment planning of vestibular schwannoma (VS): the VS and the cochleas. Currently, the diagnosis and surveillance in patients with VS are commonly performed using contrast-enhanced T1 (ceT1) MR imaging. However, there is growing interest in using non-contrast imaging sequences such as high-resolution T2 (hrT2) imaging. For this reason, we established an unsupervised cross-modality segmentation benchmark. The training dataset provides annotated ceT1 scans (N=105) and unpaired non-annotated hrT2 scans (N=105). The aim was to automatically perform unilateral VS and bilateral cochlea segmentation on hrT2 scans as provided in the testing set (N=137). This problem is particularly challenging given the large intensity distribution gap across the modalities and the small volume of the structures. A total of 55 teams from 16 countries submitted predictions to the validation leaderboard. Among them, 16 teams from 9 different countries submitted their algorithm for the evaluation phase. The level of performance reached by the top-performing teams is strikingly high (best median Dice score — VS: 88.4%; Cochleas: 85.7%) and close to full supervision (median Dice score — VS: 92.5%; Cochleas: 87.7%). All top-performing methods made use of an image-to-image translation approach to transform the source-domain images into pseudo-target-domain images. A segmentation network was then trained using these generated images and the manual annotations provided for the source image.},
+pdf={https://www.sciencedirect.com/science/article/pii/S1361841522002560/pdfft?md5=37b63c24ff7e7bb83190c4a366a5d6a4&pid=1-s2.0-S1361841522002560-main.pdf},
+month = 	 {Oct},
+code={https://github.com/CrossMoDA/CrossMoDA2022-Evaluation-code},
+bibtex_show={true},
+max_author_limit={12},
+selected={true},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@InProceedings{10.1007/978-3-030-87196-3_57,
+author="Dorent, Reuben
+and Joutard, Samuel
+and Shapey, Jonathan
+and Kujawa, Aaron
+and Modat, Marc
+and Ourselin, S{\'e}bastien
+and Vercauteren, Tom",
+editor="de Bruijne, Marleen
+and Cattin, Philippe C.
+and Cotin, St{\'e}phane
+and Padoy, Nicolas
+and Speidel, Stefanie
+and Zheng, Yefeng
+and Essert, Caroline",
+title="Inter Extreme Points Geodesics for End-to-End Weakly Supervised Image Segmentation",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2021",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="615--624",
+abstract="We introduce InExtremIS, a weakly supervised 3D approach to train a deep image segmentation network using particularly weak train-time annotations: only 6 extreme clicks at the boundary of the objects of interest. Our fully-automatic method is trained end-to-end and does not require any test-time annotations. From the extreme points, 3D bounding boxes are extracted around objects of interest. Then, deep geodesics connecting extreme points are generated to increase the amount of ``annotated'' voxels within the bounding boxes. Finally, a weakly supervised regularised loss derived from a Conditional Random Field formulation is used to encourage prediction consistency over homogeneous regions. Extensive experiments are performed on a large open dataset for Vestibular Schwannoma segmentation. InExtremIS obtained competitive performance, approaching full supervision and outperforming significantly other weakly supervised techniques based on bounding boxes. Moreover, given a fixed annotation time budget, InExtremIS outperformed full supervision. Our code and data are available online.",
+isbn="978-3-030-87196-3",
+award={<em><a href="">Student Travel Award</a></em>},
+month = 	 {Oct},
+bibtex_show={true},
+pdf={https://arxiv.org/pdf/2107.00583.pdf},
+code={https://github.com/ReubenDo/InExtremIS},
+slides={https://vimeo.com/611568814},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@InProceedings{10.1007/978-3-030-59710-8_47,
+author="Dorent, Reuben
+and Joutard, Samuel
+and Shapey, Jonathan
+and Bisdas, Sotirios
+and Kitchen, Neil
+and Bradford, Robert
+and Saeed, Shakeel
+and Modat, Marc
+and Ourselin, S{\'e}bastien
+and Vercauteren, Tom",
+editor="Martel, Anne L.
+and Abolmaesumi, Purang
+and Stoyanov, Danail
+and Mateus, Diana
+and Zuluaga, Maria A.
+and Zhou, S. Kevin
+and Racoceanu, Daniel
+and Joskowicz, Leo",
+title="Scribble-Based Domain Adaptation via Co-segmentation",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2020",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="479--489",
+abstract="Although deep convolutional networks have reached state-of-the-art performance in many medical image segmentation tasks, they have typically demonstrated poor generalisation capability. To be able to generalise from one domain (e.g. one imaging modality) to another, domain adaptation has to be performed. While supervised methods may lead to good performance, they require to fully annotate additional data which may not be an option in practice. In contrast, unsupervised methods don't need additional annotations but are usually unstable and hard to train. In this work, we propose a novel weakly-supervised method. Instead of requiring detailed but time-consuming annotations, scribbles on the target domain are used to perform domain adaptation. This paper introduces a new formulation of domain adaptation based on structured learning and co-segmentation. Our method is easy to train, thanks to the introduction of a regularised loss. The framework is validated on Vestibular Schwannoma segmentation (T1 to T2 scans). Our proposed method outperforms unsupervised approaches and achieves comparable performance to a fully-supervised approach.",
+isbn="978-3-030-59710-8",
+month = 	 {Oct},
+bibtex_show={true},
+code={https://github.com/KCL-BMEIS/ScribbleDA},
+pdf={https://arxiv.org/pdf/2007.03632.pdf},
+slides={https://www.youtube.com/watch?v=WgYuHwVFZBY&t=20s},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@InProceedings{10.1007/978-3-031-43996-4_22,
+author="Haouchine, Nazim
+and Dorent, Reuben
+and Juvekar, Parikshit
+and Torio, Erickson
+and Wells, William M.
+and Kapur, Tina
+and Golby, Alexandra J.
+and Frisken, Sarah",
+editor="Greenspan, Hayit
+and Madabhushi, Anant
+and Mousavi, Parvin
+and Salcudean, Septimiu
+and Duncan, James
+and Syeda-Mahmood, Tanveer
+and Taylor, Russell",
+title="Learning Expected Appearances for Intraoperative Registration During Neurosurgery",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2023",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+month = 	 {Sept},
+pages="227--237",
+abstract="We present a novel method for intraoperative patient-to-image registration by learning Expected Appearances. Our method uses preoperative imaging to synthesize patient-specific expected views through a surgical microscope for a predicted range of transformations. Our method estimates the camera pose by minimizing the dissimilarity between the intraoperative 2D view through the optical microscope and the synthesized expected texture. In contrast to conventional methods, our approach transfers the processing tasks to the preoperative stage, reducing thereby the impact of low-resolution, distorted, and noisy intraoperative images, that often degrade the registration accuracy. We applied our method in the context of neuronavigation during brain surgery. We evaluated our approach on synthetic data and on retrospective data from 6 clinical cases. Our method outperformed state-of-the-art methods and achieved accuracies that met current clinical standards.",
+isbn="978-3-031-43996-4",
+pdf={https://arxiv.org/pdf/2310.01735.pdf},
+code={https://github.com/rouge1616/ExApp/},
+bibtex_show={True},
 }
 
-@book{przibram1967letters,
+@article{shapey2021segmentation,
+  title={Segmentation of vestibular schwannoma from MRI, an open annotated dataset and baseline algorithm},
+  author={Shapey, Jonathan and Kujawa, Aaron and Dorent, Reuben and Wang, Guotai and Dimitriadis, Alexis and Grishchuk, Diana and Paddick, Ian and Kitchen, Neil and Bradford, Robert and Saeed, Shakeel R and others},
+  journal={Scientific Data},
+  volume={8},
+  number={1},
+  pages={286},
+  year={2021},
+  publisher={Nature Publishing Group UK London},
+  month={Oct},
+  abstract={Automatic segmentation of vestibular schwannomas (VS) from magnetic resonance imaging (MRI) could significantly improve clinical workflow and assist patient management. We have previously developed a novel artificial intelligence framework based on a 2.5D convolutional neural network achieving excellent results equivalent to those achieved by an independent human annotator. Here, we provide the first publicly-available annotated imaging dataset of VS by releasing the data and annotations used in our prior work. This collection contains a labelled dataset of 484 MR images collected on 242 consecutive patients with a VS undergoing Gamma Knife Stereotactic Radiosurgery at a single institution. Data includes all segmentations and contours used in treatment planning and details of the administered dose. Implementation of our automated segmentation algorithm uses MONAI, a freely-available open-source framework for deep learning in healthcare imaging. These data will facilitate the development and validation of automated segmentation frameworks for VS and may also be used to develop other multi-modal algorithmic models.},
+  pdf={https://www.nature.com/articles/s41597-021-01064-w.pdf},
+  code={https://github.com/KCL-BMEIS/VS_Seg},
+  bibtex_show={True},
+}
+
+@InProceedings{10.1007/978-3-030-32226-7_44,
+author="Joutard, Samuel
+and Dorent, Reuben
+and Isaac, Amanda
+and Ourselin, Sebastien
+and Vercauteren, Tom
+and Modat, Marc",
+editor="Shen, Dinggang
+and Liu, Tianming
+and Peters, Terry M.
+and Staib, Lawrence H.
+and Essert, Caroline
+and Zhou, Sean
+and Yap, Pew-Thian
+and Khan, Ali",
+title="Permutohedral Attention Module for Efficient Non-local Neural Networks",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2019",
+year="2019",
+month = 	 {Oct},
+publisher="Springer International Publishing",
+address="Cham",
+pages="393--401",
+doi={https://doi.org/10.1007/978-3-030-32226-7_44},
+abstract="Medical image processing tasks such as segmentation often require capturing non-local information. As organs, bones, and tissues share common characteristics such as intensity, shape, and texture, the contextual information plays a critical role in correctly labeling them. Segmentation and labeling is now typically done with convolutional neural networks (CNNs) but the context of the CNN is limited by the receptive field which itself is limited by memory requirements and other properties. In this paper, we propose a new attention module, that we call Permutohedral Attention Module (PAM), to efficiently capture non-local characteristics of the image. The proposed method is both memory and computationally efficient. We provide a GPU implementation of this module suitable for 3D medical imaging problems. We demonstrate the efficiency and scalability of our module with the challenging task of vertebrae segmentation and labeling where context plays a crucial role because of the very similar appearance of different vertebrae.",
+isbn="978-3-030-32226-7",
+pdf={https://arxiv.org/pdf/1907.00641.pdf},
+code={https://github.com/SamuelJoutard/Permutohedral_attention_module},
+bibtex_show={True},
+}
+
+
+
+
+@InProceedings{10.1007/978-3-031-21014-3_30,
+author="Joutard, Samuel
+and Dorent, Reuben
+and Ourselin, Sebastien
+and Vercauteren, Tom
+and Modat, Marc",
+editor="Lian, Chunfeng
+and Cao, Xiaohuan
+and Rekik, Islem
+and Xu, Xuanang
+and Cui, Zhiming",
+title="Driving Points Prediction for Abdominal Probabilistic Registration",
+booktitle="Machine Learning in Medical Imaging (MICCAI Workshop)",
+year="2022",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="288--297",
+month = 	 {Oct},
+abstract="Inter-patient abdominal registration has various applications, from pharmakinematic studies to anatomy modeling. Yet, it remains a challenging application due to the morphological heterogeneity and variability of the human abdomen. Among the various registration methods proposed for this task, probabilistic displacement registration models estimate displacement distribution for a subset of points by comparing feature vectors of points from the two images. These probabilistic models are informative and robust while allowing large displacements by design. As the displacement distributions are typically estimated on a subset of points (which we refer to as driving points), due to computational requirements, we propose in this work to learn a driving points predictor. Compared to previously proposed methods, the driving points predictor is optimized in an end-to-end fashion to infer driving points tailored for a specific registration pipeline. We evaluate the impact of our contribution on two different datasets corresponding to different modalities. Specifically, we compared the performances of 6 different probabilistic displacement registration models when using a driving points predictor or one of 2 other standard driving points selection methods. The proposed method improved performances in 11 out of 12 experiments.",
+isbn="978-3-031-21014-3",
+pdf={https://arxiv.org/pdf/2208.03232.pdf},
+code={https://github.com/SamuelJoutard/DrivingPointsPredictionMIR},
+bibtex_show={True},
+award={<em><a href="">Best Paper Award</a></em>},
+}
+
+@article { AnartificialintelligenceframeworkforautomaticsegmentationandvolumetryofvestibularschwannomasfromcontrastenhancedT1weightedandhighresolutionT2weightedMRI,
+      author = "Jonathan Shapey and Guotai Wang and Reuben Dorent and Alexis Dimitriadis and Wenqi Li and Ian Paddick and Neil Kitchen and Sotirios Bisdas and Shakeel R. Saeed and Sebastien Ourselin and Robert Bradford and Tom Vercauteren",
+      title = "An artificial intelligence framework for automatic segmentation and volumetry of vestibular schwannomas from contrast-enhanced T1-weighted and high-resolution T2-weighted MRI",
+      journal = "Journal of Neurosurgery JNS",
+      year = "2019",
+      month = "Dec",
+      publisher = "American Association of Neurological Surgeons",
+      volume = "134",
+      number = "1",
+      doi = "https://doi.org/10.3171/2019.9.JNS191949",
+      pages=      "171 - 179",
+      url = "https://thejns.org/view/journals/j-neurosurg/134/1/article-p171.xml",
+      abstract={OBJECTIVE: Automatic segmentation of vestibular schwannomas (VSs) from MRI could significantly improve clinical workflow and assist in patient management. Accurate tumor segmentation and volumetric measurements provide the best indicators to detect subtle VS growth, but current techniques are labor intensive and dedicated software is not readily available within the clinical setting. The authors aim to develop a novel artificial intelligence (AI) framework to be embedded in the clinical routine for automatic delineation and volumetry of VS. METHODS: Imaging data (contrast-enhanced T1-weighted [ceT1] and high-resolution T2-weighted [hrT2] MR images) from all patients meeting the study's inclusion/exclusion criteria who had a single sporadic VS treated with Gamma Knife stereotactic radiosurgery were used to create a model. The authors developed a novel AI framework based on a 2.5D convolutional neural network (CNN) to exploit the different in-plane and through-plane resolutions encountered in standard clinical imaging protocols. They used a computational attention module to enable the CNN to focus on the small VS target and propose a supervision on the attention map for more accurate segmentation. The manually segmented target tumor volume (also tested for interobserver variability) was used as the ground truth for training and evaluation of the CNN. We quantitatively measured the Dice score, average symmetric surface distance (ASSD), and relative volume error (RVE) of the automatic segmentation results in comparison to manual segmentations to assess the model's accuracy. RESULTS: Imaging data from all eligible patients (n = 243) were randomly split into 3 nonoverlapping groups for training (n = 177), hyperparameter tuning (n = 20), and testing (n = 46). Dice, ASSD, and RVE scores were measured on the testing set for the respective input data types as follows: ceT1 93.43%, 0.203 mm, 6.96%; hrT2 88.25%, 0.416 mm, 9.77%; combined ceT1/hrT2 93.68%, 0.199 mm, 7.03%. Given a margin of 5% for the Dice score, the automated method was shown to achieve statistically equivalent performance in comparison to an annotator using ceT1 images alone (p = 4e-13) and combined ceT1/hrT2 images (p = 7e-18) as inputs. CONCLUSIONS: The authors developed a robust AI framework for automatically delineating and calculating VS tumor volume and have achieved excellent results, equivalent to those achieved by an independent human annotator. This promising AI technology has the potential to improve the management of patients with VS and potentially other brain tumors. },
+      bibtex_show={True},
+      n_first_authors={1},
+}
+
+
+
+
+@InProceedings{10.1007/978-3-031-43999-5_43,
+author="Dorent, Reuben
+and Haouchine, Nazim
+and Kogl, Fryderyk
+and Joutard, Samuel
+and Juvekar, Parikshit
+and Torio, Erickson
+and Golby, Alexandra J.
+and Ourselin, Sebastien
+and Frisken, Sarah
+and Vercauteren, Tom
+and Kapur, Tina
+and Wells, William M.",
+editor="Greenspan, Hayit
+and Madabhushi, Anant
+and Mousavi, Parvin
+and Salcudean, Septimiu
+and Duncan, James
+and Syeda-Mahmood, Tanveer
+and Taylor, Russell",
+title="Unified Brain MR-Ultrasound Synthesis Using Multi-modal Hierarchical Representations",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2023",
+year="2023",
+month = 	 {Sept},
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="448--458",
+abstract="We introduce MHVAE, a deep hierarchical variational auto-encoder (VAE) that synthesizes missing images from various modalities. Extending multi-modal VAEs with a hierarchical latent structure, we introduce a probabilistic formulation for fusing multi-modal images in a common latent representation while having the flexibility to handle incomplete image sets as input. Moreover, adversarial learning is employed to generate sharper images. Extensive experiments are performed on the challenging problem of joint intra-operative ultrasound (iUS) and Magnetic Resonance (MR) synthesis. Our model outperformed multi-modal VAEs, conditional GANs, and the current state-of-the-art unified method (ResViT) for synthesizing missing images, demonstrating the advantage of using a hierarchical latent representation and a principled probabilistic fusion operation. Our code is publicly available (https://github.com/ReubenDo/MHVAE).",
+for_project={true},
+bibtex_show={true},
+isbn="978-3-031-43999-5",
+pdf={https://arxiv.org/pdf/2309.08747.pdf},
+code={https://github.com/ReubenDo/MHVAE},
+award={<em><a href="">Highlighted Poster</a></em>},
+selected={true},
+}
+
+@article{perez2021self,
+  title={A self-supervised learning strategy for postoperative brain cavity segmentation simulating resections},
+  author={P{\'e}rez-Garc{\'\i}a, Fernando and Dorent, Reuben and Rizzi, Michele and Cardinale, Francesco and Frazzini, Valerio and Navarro, Vincent and Essert, Caroline and Ollivier, Ir{\`e}ne and Vercauteren, Tom and Sparks, Rachel and others},
+  journal={International Journal of Computer Assisted Radiology and Surgery},
+  volume={16},
+  pages={1653--1661},
+  year={2021},
+  publisher={Springer},
+  code={https://github.com/fepegar/resseg-ijcars},
+  abstract={Accurate segmentation of brain resection cavities (RCs) aids in postoperative analysis and determining follow-up treatment. Convolutional neural networks (CNNs) are the state-of-the-art image segmentation technique, but require large annotated datasets for training. Annotation of 3D medical images is time-consuming, requires highly-trained raters, and may suffer from high inter-rater variability. Self-supervised learning strategies can leverage unlabeled data for training. We developed an algorithm to simulate resections from preoperative magnetic resonance images (MRIs). We performed self-supervised training of a 3D CNN for RC segmentation using our simulation method. We curated EPISURG, a dataset comprising 430 postoperative and 268 preoperative MRIs from 430 refractory epilepsy patients who underwent resective neurosurgery. We fine-tuned our model on three small annotated datasets from different institutions and on the annotated images in EPISURG, comprising 20, 33, 19 and 133 subjects. The model trained on data with simulated resections obtained median (interquartile range) Dice score coefficients (DSCs) of 81.7 (16.4), 82.4 (36.4), 74.9 (24.2) and 80.5 (18.7) for each of the four datasets. After fine-tuning, DSCs were 89.2 (13.3), 84.1 (19.8), 80.2 (20.1) and 85.2 (10.8). For comparison, inter-rater agreement between human annotators from our previous study was 84.0 (9.9). We present a self-supervised learning strategy for 3D CNNs using simulated RCs to accurately segment real RCs on postoperative MRI. Our method generalizes well to data from different institutions, pathologies and modalities. Source code, segmentation models and the EPISURG dataset are available at https://github.com/fepegar/ressegijcars.},
+  pdf={https://arxiv.org/pdf/2105.11239.pdf},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
 }
+
+% 2021
+@article{DORENT2021101862,
+title = {Learning joint segmentation of tissues and brain lesions from task-specific hetero-modal domain-shifted datasets},
+journal = {Medical Image Analysis},
+volume = {67},
+pages = {101862},
+year = {2022},
+issn = {1361-8415},
+month = 	 {Jan},
+doi = {https://doi.org/10.1016/j.media.2020.101862},
+url = {https://www.sciencedirect.com/science/article/pii/S1361841520302267},
+author = {Reuben Dorent and Thomas Booth and Wenqi Li and Carole H. Sudre and Sina Kafiabadi and Jorge Cardoso and Sebastien Ourselin and Tom Vercauteren},
+keywords = {Joint learning, Domain adaptation, Multi-Task learning, Multi-Modal},
+abstract = {Brain tissue segmentation from multimodal MRI is a key building block of many neuroimaging analysis pipelines. Established tissue segmentation approaches have, however, not been developed to cope with large anatomical changes resulting from pathology, such as white matter lesions or tumours, and often fail in these cases. In the meantime, with the advent of deep neural networks (DNNs), segmentation of brain lesions has matured significantly. However, few existing approaches allow for the joint segmentation of normal tissue and brain lesions. Developing a DNN for such a joint task is currently hampered by the fact that annotated datasets typically address only one specific task and rely on task-specific imaging protocols including a task-specific set of imaging modalities. In this work, we propose a novel approach to build a joint tissue and lesion segmentation model from aggregated task-specific hetero-modal domain-shifted and partially-annotated datasets. Starting from a variational formulation of the joint problem, we show how the expected risk can be decomposed and optimised empirically. We exploit an upper bound of the risk to deal with heterogeneous imaging modalities across datasets. To deal with potential domain shift, we integrated and tested three conventional techniques based on data augmentation, adversarial learning and pseudo-healthy generation. For each individual task, our joint approach reaches comparable performance to task-specific and fully-supervised models. The proposed framework is assessed on two different types of brain lesions: White matter lesions and gliomas. In the latter case, lacking a joint ground-truth for quantitative assessment purposes, we propose and use a novel clinically-relevant qualitative assessment methodology.},
+selected={true},
+bibtex_show={true},
+code={https://github.com/ReubenDo/jSTABL},
+pdf={https://arxiv.org/pdf/2009.04009.pdf},
+}
+

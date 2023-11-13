@@ -168,7 +168,6 @@ blockquote {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
-    text-align: right;
 
     p {
       display: inline-block;
@@ -184,6 +183,7 @@ blockquote {
 .profile.float-left {
   margin-right: 1rem;
 }
+
 
 .announcement {
   width: auto;
@@ -206,7 +206,7 @@ blockquote {
   }
 
   .announcement {
-    max-width: 68% !important;
+    max-width: 70% !important;
   }
 }
 
@@ -232,10 +232,6 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
-}
-
-.emph {
-  color: var(--global-theme-color);
 }
 
 .navbar .dropdown-menu {
@@ -273,15 +269,6 @@ blockquote {
 
   .navbar-brand {
     color: var(--global-text-color);
-  }
-
-  .navbar-nav {
-    font-size: 1.25rem !important;
-    align-items: center;
-
-    @media (max-width: 768px) {
-      font-size: 1rem !important;
-    }
   }
 
   .navbar-nav .nav-item .nav-link {
@@ -607,25 +594,6 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
-  .filter-button-group {
-    a {
-      background-color: white !important;
-      font-size: 0.7rem !important;
-      color: var(--global-theme-color) !important;
-      border: 2px solid var(--global-theme-color) !important;
-
-      :hover {
-        background-color: color-mix(in srgb, var(--global-theme-color), transparent 30%) !important;
-        border: 2px solid var(--global-theme-color) !important;
-      }
-    }
-    .btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active, .show>.btn-primary.dropdown-toggle {
-      background-color: var(--global-theme-color) !important;
-      border-color: var(--global-theme-color) !important;
-      color: white !important;
-    }
-  }
-
   a {
     text-decoration: none;
 
@@ -652,20 +620,11 @@ footer.sticky-bottom {
     }
   }
 
+  .grid-sizer,
   .grid-item {
-    margin-bottom: 1.5rem;
-    width: 30%;
-    @media (max-width: 576px) {
-      width: 100%;
-    }
+    width: 250px;
+    margin-bottom: 10px;
   }
-  .grid-sizer {
-    width: 30%;
-    @media (max-width: 576px) {
-      width: 100%;
-    }
-  }
-  .gutter-sizer { width: 1.5rem; }
 
   h2.category {
     color: var(--global-divider-color);
@@ -673,45 +632,7 @@ footer.sticky-bottom {
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: left;
-  }
-
-  .github-icon {
-    margin-top: 0.5rem;
-    margin-bottom: -1.5rem;
-    margin-left: -0.25rem;
-    margin-right: 0.5rem;
-    padding: 0;
-
-    .icon {
-      display: block;
-      font-size: 40px;
-      margin-bottom: 0.3em;
-      margin-right: 0.25rem;
-    }
-
-    .stars {
-      display: inline-block;
-      padding: 0.25em 0.4em;
-      font-size: 75%;
-      font-weight: 700;
-      line-height: 1;
-      text-align: center;
-      white-space: nowrap;
-      vertical-align: baseline;
-      border-radius: 0.25rem;
-      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-      background-color: #b71c1c !important;
-      color: #fff !important;
-      position: relative;
-      top: -75px;
-      left: 20px;
-
-      span {
-        padding-left: 0.1rem;
-        color: white !important;
-      }
-    }
+    text-align: right;
   }
 }
 
@@ -744,15 +665,6 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: -2rem;
     text-align: right;
-  }
-
-  h2.year {
-    color: var(--global-text-color);
-    border-bottom: 1px solid var(--global-divider-color);
-    // padding-top: 1rem;
-    // margin-top: 2rem;
-    // margin-bottom: 2rem;
-    text-align: left;
   }
 
   ol.bibliography {
@@ -838,18 +750,6 @@ footer.sticky-bottom {
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
-          }
-        }
-
-        span {
-          display: inline-block;
-          color: $black-color;
-          height: 100%;
-          padding-right: 0.5rem;
-          vertical-align: middle;
-
-          &:hover {
-            text-decoration: underline;
           }
         }
       }
@@ -1170,29 +1070,5 @@ nav[data-toggle="toc"] {
     font-size: 0.875rem;
     margin-bottom: 0;
     padding-top: 0.5rem;
-  }
-}
-
-
-// Awards
-#awards, #certificates {
-  #accordion {
-    .card {
-      background-color: var(--global-card-bg-color) !important;
-      border: 1px solid var(--global-divider-color) !important;
-
-      .card-header {
-        background-color: var(--global-bg-color) !important;
-        border-bottom: 1px solid var(--global-divider-color);
-        padding: 0 !important;
-        margin-bottom: 0;
-
-        button {
-          color: var(--global-theme-color) !important;
-          font-size: 1rem;
-          text-decoration: none;
-        }
-      }
-    }
   }
 }

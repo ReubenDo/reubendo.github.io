@@ -24,19 +24,17 @@ $yellow-color:        #efcc00 !default;
 
 $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
-$grey-color-dark:     #424242;
+$grey-color-dark:     #1C1C1D;
 $grey-900:            #212529;
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
-$orange-color-007:  #FDB515 !default;
-
 // Theme colors
 
 $code-bg-color-light:     rgba($purple-color, 0.05);
 $code-bg-color-dark:      #2c3237 !default;
-$code-bg-announcement-light:    rgba($orange-color-007, 0.16);
+$code-bg-announcement-light:    rgba($purple-color, 0.16);
 $code-bg-announcement-dark:     #ffffff;
 
 // Font awesome location
