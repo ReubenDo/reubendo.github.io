@@ -484,7 +484,7 @@ In publications, the author entry for yourself is identified by string array `sc
 
 ```yaml
 scholar:
-  last_name: [Einstein]
+  last_name: [Reuben]
   first_name: [Albert, A.]
 ```
 
