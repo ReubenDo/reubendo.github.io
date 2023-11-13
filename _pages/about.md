@@ -22,7 +22,7 @@ announcement: >
 ---
 <!-- <span style="font-size: 1.0rem;"> I am currently a postdoctoral fellow at Harvard Medical School working with [Sandy Wells](https://scholar.google.com/citations?user=DwXLsT8AAAAJ&hl=fr). Prior to that, I did my PhD under the supervision of [Tom Vercauteren](https://cai4cai.ml/) at King's College London. Here is a short CV.</span> -->
 
-I am currently a postdoctoral fellow at Harvard Medical School working with [Sandy Wells](https://scholar.google.com/citations?user=DwXLsT8AAAAJ&hl=fr). Prior to that, I did my PhD under the supervision of [Tom Vercauteren](https://cai4cai.ml/) at King's College London. Here is a short CV.
+I am currently a postdoctoral fellow at Harvard Medical School working with [Prof. Sandy Wells](https://scholar.google.com/citations?user=DwXLsT8AAAAJ&hl=fr). Prior to that, I did my PhD under the supervision of [Prof. Tom Vercauteren](https://cai4cai.ml/) at King's College London. 
 
 
 {% include announcement.html %}
