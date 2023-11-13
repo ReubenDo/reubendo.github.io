@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: Projects
 permalink: /projects/
 description: My research projects.
 nav: true
@@ -8,6 +8,7 @@ nav_order: 1
 display_categories: [Research]
 horizontal: false
 ---
+
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -48,9 +49,10 @@ horizontal: false
     </div>
   </div>
   {%- else -%}
-  <div class="grid">
+  <div class="container">
     {%- for project in sorted_projects -%}
       {% include projects.html %}
+      <br>
     {%- endfor %}
   </div>
   {%- endif -%}
