@@ -3,95 +3,142 @@
   contents:
     - name: Full Name
       value: Reuben Dorent
-    # - name: Date of Birth
-    #   value: 14th March 1879
+    - name: Email
+      value: r[surname]@bwh.harvard.edu
     - name: Languages
-      value: English, German
+      value: English, French
+    - name: Summary
+      value: Researcher in Computer Vision for Medical Image Analysis
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Doctor of Philosophy in Computer Science (Ph.D.)
+      institution: King's College London
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - <b>Thesis title:</b> Collaborative learning of joint medical image segmentation tasks from heterogeneous and weakly-annotated data. 
+        - <b>Supervisors:</b> Prof. T. Vercauteren, Prof. S. Ourselin
+        - <b>Merit:</b> Selected for the King’s Outstanding Thesis Prize 2023
+    - title: Master of Science in Mathematics, Vision, Learning (MVA), 
+      institution: Ecole Normale Supérieure (ENS) Paris-Saclay, Cachan, France
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
+        - <b>Major in:</b>  Probabilistic Graphical Models, Kernel Methods, Discrete Inference and Learning
+        - <b>Thesis title:</b> Learning Tumor And Tissue Segmentation From Disjoint Datasets
+        - <b>Supervisors:</b> Prof. T. Vercauteren, Prof. N. Paragios
+        - <b>Merit:</b> Highest Honors
+    - title: Diplôme d'Ingénieur in Applied Mathematics 
+      institution: École Centrale Paris, Gif-sur-Yvette, France
+      year: 2018
+      description:
+        - <b>Major in:</b>  Theory of Probabilities, Modern Applied Statistics, Optimization, Reinforcement Learning
+        - <b>Supervisor:</b> Prof. N. Paragios
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Research Fellow
+      institution: Harvard Medical School, Boston, United States
+      year: 2022 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Registration of pre/intra/post operative MR and ultra-sound images for image-guided brain surgery.
+        - <a>Supervisor:</a> Prof. S. Wells, Prof. T. Kapur, Prof. A. Golby
+    - title: Research Scientist Intern
+      institution: Hypervision Surgical, London, United Kingdom
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Developed a deep learning-based image demosaicking algorithm for snapshot hyperspectral images.
+    - title: PhD Student
+      institution: King’s College London, London, United Kingdom
+      year: 2018-2022
       description:
+        - Collaborative learning of joint medical image segmentation tasks from heterogeneous and weakly-annotated data.
+        - <a>Supervisor:</a> Prof. T. Vercauteren
+    - title: Research Intern
+      institution: WEISS, University College London, London, United Kingdom
+      year: 2018
+      description:
+        - Developed a new approach to perform joint brain tissue and lesion segmentation. Long Oral presentation at MIDL 2019. 
+        - <a>Supervisor:</a> Prof. T. Vercauteren
+    - title: MSc Student
+      institution: École Normale Supérieure Paris-Saclay, Cachan, France
+      year: 2017-2018
+      description:
+        - Mathematics, Computer Vision and Machine Learning. <i>Highest Honors</i>.
+    - title: MSc Student
+      institution: École Centrale Paris, Gif-sur-Yvette, France
+      year: 2017-2018
+      description:
+        - <a>Applied Mathematics:</a> Probabilities, Statistics, Optimization, Reinforcement Learning.
+    - title: Software Engineering Intern, 
+      institution: FrenchFounders, New York, United Statates
+      year: 2017
+      description:
+        - Developed and implemented matching algorithms for a networking platform with 2,000 premium business profiles (C-Level, entrepreneurs, VCs). Combined various sources of information (platform logs, text profile descriptions, event attendances).
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
-- title: Open Source Projects
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Prizes and studentships
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2023
+      items: 
+        - Selected for the King’s Outstanding Thesis Prize 
+    - year: 2021
+      items: 
+        - Travel Student Award MICCAI 2021
+        - Honorable Mention Reviewer Award MICCAI 2021
+        - Best Poster Presentation Award BMEIS School PGR Symposium 
 
-- title: Honors and Awards
+- title: Organization of international conferences
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - CrossMoDA Challenge 2023 - MICCAI, Vancouver (October, 8 2023). <b> Lead organizer. </b>
+    - year: 2023
       items: 
-        - Max Planck Medal
+        - Information Processing in Medical Imaging (IPMI) – Bariloche (June, 18-23 2023). <b>  Session chair. </b>
+    - year: 2022
+      items: 
+        - Boston Medical Imaging Workshop 2022 – Boston (October, 21 2022).  <b>  Session chair. </b>
+    - year: 2022
+      items: 
+        - CrossMoDA Challenge 2022 - MICCAI, Singapore (September, 17 2022).  <b>  Lead organizer. </b>
+    - year: 2021
+      items: 
+        - CrossMoDA Challenge 2021 - MICCAI, online (September, 27 2021).   <b>  Lead organizer. </b>
 
-- title: Academic Interests
-  type: nested_list
+- title: Selected Presentations
+  type: time_table
   contents:
-    - title: Topic 1.
+    - year: 2023
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+          - Massachusetts Institute of Technology, MIT CSAIL, Cambridge, United States
+          - MICCAI 2023, Vancouver, Canada (Poster)
+          - Inria Paris-Saclay, MIND team, France
+    - year: 2021
+      items: 
+          - MICCAI 2021, online (Poster)
+    - year: 2020
+      items: 
+          - MICCAI 2021, online (Poster)
+    - year: 2019
+      items: 
+          - MICCAI 2019, Shenzhen, China (Poster)
+          - MIDL 2019, London, United Kingdom, (Long Oral presentation)
 
-- title: Other Interests
+- title: Editorial positions and peer review
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <b> Editor:</b> <i> Brainlesion:</i>   <i>Glioma, Multiple Sclerosis, Stroke and Traumatic Brain Injuries</i>, Lecture Notes in Computer Science
+    - <b>Peer-reviewed Journal:</b> Medical Image Analysis, IEEE Transactions on Medical Imaging, International Journal of Computer Assisted Radiology and Surgery, Machine Learning for Biomedical Imaging
+    - <b>Peer-reviewed Conference:</b> MICCAI, MIDL
+

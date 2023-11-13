@@ -16,7 +16,7 @@ nav_order: 3
   {% endfor %}
 </div> -->
 
----
+
 
 <!-- {% if site.repo_trophies.enabled %}
 {% for user in site.data.repositories.github_users %}
@@ -32,11 +32,23 @@ nav_order: 3
 {% endfor %}
 {% endif %} -->
 <!-- {% endif %} -->
-
+---
 ## Data Repositories
-
-
-
+Check out some fantastic imaging datasets used for my research and which I contributed to make publicly available!
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/repository/dataset/remind.gif" title="ReMIND dataset" href="https://doi.org/10.7937/3RAG-D070" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/repository/dataset/vsseg_multi.gif" title="VS-MC-RC dataset" href="https://doi.org/10.7937/TCIA.9YTJ-5Q73"  class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/repository/dataset/vsseg.gif" title="VS-Seg dataset" href="https://doi.org/10.7937/HRZH-2N82"  class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+</div>
+---
 
 ## GitHub Repositories
 

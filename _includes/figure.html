@@ -1,9 +1,9 @@
-{%- assign img_path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
+{%- assign img_path = include.path | remove: ".jpg" | remove: ".gif" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
 
 <figure>
 
   <picture>
-    {% if site.imagemagick.enabled %}
+    <!-- {% if site.imagemagick.enabled %}
     {% for i in site.imagemagick.widths -%}
       <source
         class="responsive-img-srcset"
@@ -11,9 +11,10 @@
         srcset="{{ img_path | relative_url }}-{{ i }}.webp"
       />
     {% endfor -%}
-    {% endif %}
+    {% endif %} -->
 
     <!-- Fallback to the original file -->
+    <a href="{% if include.href %}{{include.href }}{% endif %}">
     <img
       src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
       {% if include.class %}class="{{ include.class }}"{% endif %}
@@ -28,6 +29,7 @@
       {% if include.zoomable %}data-zoomable{% endif %}
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
     />
+  </a>
   </picture>
 
   {%- if include.caption -%}<figcaption class="caption">{{ include.caption }}</figcaption>{%- endif %}

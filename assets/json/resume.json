@@ -1,35 +1,19 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Reuben Dorent",
     "label": "Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "email": "r[surname]@bwh.harvard.edu",
+    "url": "https://reuben.dorent.fr",
+    "summary": "Postdoc at Harvard Medical School working on medical image analysis",
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "Harvard Medical School",
+      "position": "Postdoctoral Research Fellow",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "startDate": "2022",
+      "summary": "Registration of pre/intra/post operative MR and ultra-sound images for image-guided brain surgery.",
       "highlights": [
         "Relativity"
       ]
