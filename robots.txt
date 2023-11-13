@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://reubendo.github.io/sitemap.xml
+Sitemap: https://reuben.dorent.fr/sitemap.xml
