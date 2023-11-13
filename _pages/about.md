@@ -32,4 +32,4 @@ I am primarily interested in computer vision with a focus on medical application
 - **Domain Adaptation**: Transfering the knowledge learned from one modality to another.
 - **Representation Learning**: Discovering joint representations of multimodal data to handle incomplete sets of input data at training and inference times.
 
-Contact: <span class="font-weight-bold">name.surname@bwh.harvard.edu</span>
+Contact: <span class="font-weight-bold">r[surname]@bwh.harvard.edu</span>
