@@ -22,7 +22,9 @@ announcement: >
 ---
 <!-- <span style="font-size: 1.0rem;"> I am currently a postdoctoral fellow at Harvard Medical School working with [Sandy Wells](https://scholar.google.com/citations?user=DwXLsT8AAAAJ&hl=fr). Prior to that, I did my PhD under the supervision of [Tom Vercauteren](https://cai4cai.ml/) at King's College London. Here is a short CV.</span> -->
 
-I am currently a postdoctoral fellow at Harvard Medical School working with [Prof. Sandy Wells](https://scholar.google.com/citations?user=DwXLsT8AAAAJ&hl=fr). Prior to that, I did my PhD under the supervision of [Prof. Tom Vercauteren](https://cai4cai.ml/) at King's College London. 
+I am currently a **Marie Sklodowska-Curie Fellow** at Inria Paris-Saclay and Paris Brain Institute working with Prof. [Demian Wassermann](https://pages.saclay.inria.fr/demian.wassermann/) and Prof. [Olivier Colliot](https://www.aramislab.fr/). 
+
+Prior to that, I was a postdoctoral fellowship at Harvard Medical School working with Prof. [Sandy Wells](https://scholar.google.com/citations?user=DwXLsT8AAAAJ&hl=fr) and did my PhD under the supervision of [Prof. Tom Vercauteren](https://cai4cai.ml/) at King's College London. 
 
 
 {% include announcement.html %}
@@ -32,4 +34,4 @@ I am primarily interested in computer vision with a focus on medical application
 - **Domain Adaptation**: Transfering the knowledge learned from one modality to another.
 - **Representation Learning**: Discovering joint representations of multimodal data to handle incomplete sets of input data at training and inference times.
 
-Contact: <span class="font-weight-bold">r[surname]@bwh.harvard.edu</span>
+Contact: <span class="font-weight-bold">reuben.[surname]@inria.fr</span>

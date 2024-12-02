@@ -6,7 +6,7 @@ title: Reuben Dorent # the website title (if blank, full name will be used inste
 first_name: Reuben
 middle_name: 
 last_name: Dorent
-email: rdorent@bwh.harvard.edu
+email: reuben.dorent@inria.fr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
    Website of the AI Researcher Reuben Dorent.
 footer_text: >
@@ -100,7 +100,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  Contact at r[surname]@bwh.harvard.edu
+  Contact at reuben.[surname]@inria.fr
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

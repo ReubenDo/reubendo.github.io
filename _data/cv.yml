@@ -4,7 +4,7 @@
     - name: Full Name
       value: Reuben Dorent
     - name: Email
-      value: r[surname]@bwh.harvard.edu
+      value: reuben.[surname]@inria.fr
     - name: Languages
       value: English, French
     - name: Summary
@@ -38,11 +38,17 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Marie Sklodowska-Curie Fellow
+      institution: Inria Paris-Saclay, MIND, Palaiseau; Brain Institute Paris, ARAMIS, Paris.
+      year: 2024 - present
+      description:
+        - Registration of pre/intra/post operative MR and ultrasound images for image-guided brain surgery.
+        - <a>Advisor:</a> Prof. D. Wassermann, Prof. O. Colliot
     - title: Postdoctoral Research Fellow
       institution: Harvard Medical School, Boston, United States
-      year: 2022 - present
+      year: 2022 - 2024
       description:
-        - Registration of pre/intra/post operative MR and ultra-sound images for image-guided brain surgery.
+        - Cross-modality image synthesis with missing data for image-guided brain surgery.
         - <a>Supervisor:</a> Prof. S. Wells, Prof. T. Kapur, Prof. A. Golby
     - title: Research Scientist Intern
       institution: Hypervision Surgical, London, United Kingdom
@@ -88,6 +94,9 @@
 - title: Prizes and studentships
   type: time_table
   contents:
+    - year: 2024
+      items: 
+        - Marie Skłodowska-Curie Fellow (score 100/100 - top 1%)
     - year: 2023
       items: 
         - Selected for the King’s Outstanding Thesis Prize 
@@ -100,6 +109,9 @@
 - title: Organization of international conferences
   type: time_table
   contents:
+    - year: 2024
+      items: 
+        - Learn2Reg Challenge 2024 - MICCAI, Marrakesh (October, 6 2024). <b> Lead co-organizer. </b>
     - year: 2023
       items: 
         - CrossMoDA Challenge 2023 - MICCAI, Vancouver (October, 8 2023). <b> Lead organizer. </b>
@@ -119,6 +131,11 @@
 - title: Selected Presentations
   type: time_table
   contents:
+    - year: 2024
+      items: 
+          - Athinoula A. Martinos Center for Biomedical Imaging, Charlestown, United States (virtual)
+          - MICCAI 2024, Marraskesh, Morocco (Poster)
+          - Institut du Cerveau, Paris, France
     - year: 2023
       items: 
           - Massachusetts Institute of Technology, MIT CSAIL, Cambridge, United States
