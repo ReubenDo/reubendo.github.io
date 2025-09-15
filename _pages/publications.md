@@ -4,7 +4,7 @@ permalink: /publications/
 title: publications
 title: Publications
 description:
-years: [2019, 2020, 2021, 2022, 2023, 2024]
+years: [2019, 2020, 2021, 2022, 2023, 2024, 2025]
 nav: true
 nav_order: 2
 title_link: https://scholar.google.com/citations?user=xdECLMkAAAAJ&hl

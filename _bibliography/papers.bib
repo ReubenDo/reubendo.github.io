@@ -1,5 +1,110 @@
 ---
 ---
+
+
+
+@article{assis2025deep,
+  title={Deep Biomechanically-Guided Interpolation for Keypoint-Based Brain Shift Registration},
+  author={Assis, Tiago and Machado, Ines P and Zwick, Benjamin and Garcia, Nuno and Dorent, Reuben},
+  journal={arXiv preprint arXiv:2508.13762},
+  abstract={Accurate compensation of brain shift is critical for maintaining the reliability of neuronavigation during neurosurgery. While keypoint-based registration methods offer robustness to large deformations and topological changes, they typically rely on simple geometric interpolators that ignore tissue biomechanics to create dense displacement fields. In this work, we propose a novel deep learning framework that estimates dense, physically plausible brain deformations from sparse matched keypoints. We first generate a large dataset of synthetic brain deformations using biomechanical simulations. Then, a residual 3D U-Net is trained to refine standard interpolation estimates into biomechanically guided deformations. Experiments on a large set of simulated displacement fields demonstrate that our method significantly outperforms classical interpolators, reducing by half the mean square error while introducing negligible computational overhead at inference time. Code available at: \href{https://github.com/tiago-assis/Deep-Biomechanical-Interpolator}{https://github.com/tiago-assis/Deep-Biomechanical-Interpolator}.},
+  bibtex_show={true},
+  selected={false},
+  preview={deepkeyinterpolator.png},
+  pdf={https://arxiv.org/pdf/2508.13762},
+  code={https://github.com/tiago-assis/Deep-Biomechanical-Interpolator},
+  year={2025},
+  max_author_limit={10}
+}
+
+
+
+
+@article{roy2025unsupervised,
+  title={Unsupervised anomaly detection using Bayesian flow networks: application to brain FDG PET in the context of Alzheimer's disease},
+  author={Roy, Hugues and Dorent, Reuben and Burgos, Ninon},
+  journal={Deep Generative Models Workshop at MICCAI 2025},
+  abstract={Unsupervised anomaly detection (UAD) plays a crucial role in neuroimaging for identifying deviations from healthy subject data and thus facilitating the diagnosis of neurological disorders. In this work, we focus on Bayesian flow networks (BFNs), a novel class of generative models, which have not yet been applied to medical imaging or anomaly detection. BFNs combine the strength of diffusion frameworks and Bayesian inference. We introduce AnoBFN, an extension of BFNs for UAD, designed to: i) perform conditional image generation under high levels of spatially correlated noise, and ii) preserve subject specificity by incorporating a recursive feedback from the input image throughout the generative process. We evaluate AnoBFN on the challenging task of Alzheimer's disease-related anomaly detection in FDG PET images. Our approach outperforms other state-of-the-art methods based on VAEs (beta-VAE), GANs (f-AnoGAN), and diffusion models (AnoDDPM), demonstrating its effectiveness at detecting anomalies while reducing false positive rates.},
+  bibtex_show={true},
+  selected={false},
+  preview={anobfn.png},
+  pdf={https://arxiv.org/pdf/2507.17486},
+  year={2025}
+}
+
+@article{morozov20253d,
+  title={A 3D Cross-modal Keypoint Descriptor for MR-US Matching and Registration},
+  author={Morozov, Daniil and Dorent, Reuben and Haouchine, Nazim},
+  journal={arXiv preprint arXiv:2507.18551},
+  abstract={Intraoperative registration of real-time ultrasound (iUS) to preoperative Magnetic Resonance Imaging (MRI) remains an unsolved problem due to severe modality-specific differences in appearance, resolution, and field-of-view. To address this, we propose a novel 3D cross-modal keypoint descriptor for MRI-iUS matching and registration. Our approach employs a patient-specific matching-by-synthesis approach, generating synthetic iUS volumes from preoperative MRI. This enables supervised contrastive training to learn a shared descriptor space. A probabilistic keypoint detection strategy is then employed to identify anatomically salient and modality-consistent locations. During training, a curriculum-based triplet loss with dynamic hard negative mining is used to learn descriptors that are i) robust to iUS artifacts such as speckle noise and limited coverage, and ii) rotation-invariant . At inference, the method detects keypoints in MR and real iUS images and identifies sparse matches, which are then used to perform rigid registration. Our approach is evaluated using 3D MRI-iUS pairs from the ReMIND dataset. Experiments show that our approach outperforms state-of-the-art keypoint matching methods across 11 patients, with an average precision of . For image registration, our method achieves a competitive mean Target Registration Error of 2.39 mm on the ReMIND2Reg benchmark. Compared to existing iUS-MR registration approach, our framework is interpretable, requires no manual initialization, and shows robustness to iUS field-of-view variation. Code is available at https://github.com/morozovdd/CrossKEY.},
+  bibtex_show={true},
+  selected={false},
+  preview={crosskey.gif},
+  code={https://github.com/tiago-assis/Deep-Biomechanical-Interpolator},
+  pdf={https://arxiv.org/pdf/2507.18551},
+  year={2025}
+}
+
+@article{li2025medshapenet,
+  title={Medshapenet--a large-scale dataset of 3d medical shapes for computer vision},
+  author={Li, Jianning and Zhou, Zongwei and Yang, Jiancheng and Pepe, Antonio and Gsaxner, Christina and Luijten, Gijs and Qu, Chongyu and Zhang, Tiezheng and Chen, Xiaoxi and Li, Wenxuan and others},
+  journal={Biomedical Engineering/Biomedizinische Technik},
+  volume={70},
+  number={1},
+  pages={71--90},
+  year={2025},
+  publisher={de Gruyter},
+  bibtex_show={true},
+  selected={false},
+  preview={medshapenet.png},
+  code={https://medshapenet.ikim.nrw/},
+  pdf={https://arxiv.org/pdf/2308.16139},
+}
+
+
+@article{wijethilake2025crossmoda,
+  title={crossMoDA Challenge: Evolution of Cross-Modality Domain Adaptation Techniques for Vestibular Schwannoma and Cochlea Segmentation from 2021 to 2023},
+  author={Wijethilake, Navodini and Dorent, Reuben and Ivory, Marina and Kujawa, Aaron and Cornelissen, Stefan and Langenhuizen, Patrick and Okasha, Mohamed and Oviedova, Anna and Dong, Hexin and Kang, Bogyeong and others},
+  journal={arXiv preprint arXiv:2506.12006},
+  abstract={The cross-Modality Domain Adaptation (crossMoDA) challenge series, initiated in 2021 in conjunction with the International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), focuses on unsupervised cross-modality segmentation, learning from contrast-enhanced T1 (ceT1) and transferring to T2 MRI. The task is an extreme example of domain shift chosen to serve as a meaningful and illustrative benchmark. From a clinical application perspective, it aims to automate Vestibular Schwannoma (VS) and cochlea segmentation on T2 scans for more cost-effective VS management. Over time, the challenge objectives have evolved to enhance its clinical relevance. The challenge evolved from using single-institutional data and basic segmentation in 2021 to incorporating multi-institutional data and Koos grading in 2022, and by 2023, it included heterogeneous routine data and sub-segmentation of intra- and extra-meatal tumour components. In this work, we report the findings of the 2022 and 2023 editions and perform a retrospective analysis of the challenge progression over the years. The observations from the successive challenge contributions indicate that the number of outliers decreases with an expanding dataset. This is notable since the diversity of scanning protocols of the datasets concurrently increased. The winning approach of the 2023 edition reduced the number of outliers on the 2021 and 2022 testing data, demonstrating how increased data heterogeneity can enhance segmentation performance even on homogeneous data. However, the cochlea Dice score declined in 2023, likely due to the added complexity from tumour sub-annotations affecting overall segmentation performance. While progress is still needed for clinically acceptable VS segmentation, the plateauing performance suggests that a more challenging cross-modal task may better serve future benchmarking. },
+  bibtex_show={true},
+  selected={false},
+  preview={crossmoda.png},
+  pdf={https://arxiv.org/pdf/2506.12006},
+  year={2025},
+  n_first_authors={1},
+}
+
+@article{geshvadi2025optimizing,
+  title={Optimizing registration uncertainty visualization to support intraoperative decision-making during brain tumor resection},
+  author={Geshvadi, M and Dorent, R and Galvin, C and Rigolo, L and Haouchine, N and Kapur, T and Pieper, S and Vangel, M and Wells, WM and Golby, AJ and others},
+  journal={International Journal of Computer Assisted Radiology and Surgery},
+  pages={1--9},
+  year={2025},
+  publisher={Springer},
+  bibtex_show={true},
+  selected={false},
+  preview={mahsavis.png},
+  pdf={https://pmc.ncbi.nlm.nih.gov/articles/PMC12239872/pdf/nihms-2088216.pdf},
+}
+
+@article{wei2025segmatch,
+  title={SegMatch: semi-supervised surgical instrument segmentation},
+  author={Wei, Meng and Budd, Charlie and Garcia-Peraza-Herrera, Luis C and Dorent, Reuben and Shi, Miaojing and Vercauteren, Tom},
+  journal={Scientific Reports},
+  volume={15},
+  number={1},
+  pages={14042},
+  year={2025},
+  publisher={Nature Publishing Group UK London},
+  abstract={Surgical instrument segmentation is recognised as a key enabler in providing advanced surgical assistance and improving computer-assisted interventions. In this work, we propose SegMatch, a semi-supervised learning method to reduce the need for expensive annotation for laparoscopic and robotic surgical images. SegMatch builds on FixMatch, a widespread semi-supervised classification pipeline combining consistency regularization and pseudo-labelling, and adapts it for the purpose of segmentation. In our proposed SegMatch, the unlabelled images are first weakly augmented and fed to the segmentation model to generate pseudo-labels. In parallel, images are fed to a strong augmentation branch and consistency between the branches is used as an unsupervised loss. To increase the relevance of our strong augmentations, we depart from using only handcrafted augmentations and introduce a trainable adversarial augmentation strategy. Our FixMatch adaptation for segmentation tasks further includes carefully considering the equivariance and invariance properties of the augmentation functions we rely on. For binary segmentation tasks, our algorithm was evaluated on the MICCAI Instrument Segmentation Challenge datasets, Robust-MIS 2019 and EndoVis 2017. For multi-class segmentation tasks, we relied on the recent CholecInstanceSeg dataset. Our results show that SegMatch outperforms fully-supervised approaches by incorporating unlabelled data, and surpasses a range of state-of-the-art semi-supervised models across different labelled to unlabelled data ratios.},
+  bibtex_show={true},
+  selected={false},
+  preview={meng.png},
+  pdf={https://www.nature.com/articles/s41598-025-94568-z.pdf},
+}
+
+
 @article{dorent2024unified,
   title={Unified Cross-Modal Image Synthesis with Hierarchical Mixture of Product-of-Experts},
   author={Dorent, Reuben and Haouchine, Nazim and Golby, Alexandra and Frisken, Sarah and Kapur, Tina and Wells, William},
@@ -9,6 +114,7 @@
   selected={true},
   preview={fake_us.gif},
   pdf={https://arxiv.org/pdf/2410.19378},
+  code={https://github.com/ReubenDo/MMHVAE},
   year={2024}
 }
 
