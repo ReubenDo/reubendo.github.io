@@ -24,6 +24,8 @@ announcement: >
 
 I am currently a **Marie Sklodowska-Curie Fellow** at Inria Paris-Saclay and Paris Brain Institute working with Prof. [Demian Wassermann](https://pages.saclay.inria.fr/demian.wassermann/) and Prof. [Olivier Colliot](https://www.aramislab.fr/). 
 
+**Exciting news:** In 2026, I will become a **permanent research at Inria Paris** (CRCN) in the ARAMIS team located at Paris Brain Institute!
+
 Prior to that, I was a postdoctoral fellow at Harvard Medical School working with Prof. [Sandy Wells](https://scholar.google.com/citations?user=DwXLsT8AAAAJ&hl=fr) and did my PhD under the supervision of [Prof. Tom Vercauteren](https://cai4cai.ml/) at King's College London. 
 
 
