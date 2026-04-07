@@ -22,11 +22,9 @@ announcement: >
 ---
 <!-- <span style="font-size: 1.0rem;"> I am currently a postdoctoral fellow at Harvard Medical School working with [Sandy Wells](https://scholar.google.com/citations?user=DwXLsT8AAAAJ&hl=fr). Prior to that, I did my PhD under the supervision of [Tom Vercauteren](https://cai4cai.ml/) at King's College London. Here is a short CV.</span> -->
 
-I am currently a **Marie Sklodowska-Curie Fellow** at Inria Paris-Saclay and Paris Brain Institute working with Prof. [Demian Wassermann](https://pages.saclay.inria.fr/demian.wassermann/) and Prof. [Olivier Colliot](https://www.aramislab.fr/). 
+I am currently a **Research Scientist** at Inria Paris in the [ARAMIS](https://aramislab.paris.inria.fr/) team located at the Paris Brain Institute.
 
-**Exciting news:** In 2026, I will become a **permanent research at Inria Paris** (CRCN) in the ARAMIS team located at Paris Brain Institute!
-
-Prior to that, I was a postdoctoral fellow at Harvard Medical School working with Prof. [Sandy Wells](https://scholar.google.com/citations?user=DwXLsT8AAAAJ&hl=fr) and did my PhD under the supervision of [Prof. Tom Vercauteren](https://cai4cai.ml/) at King's College London. 
+Prior to that, I received a Marie Sklodowska-Curie Fellowship at Inria Paris-Saclay and Paris Brain Institute working with Prof. [Demian Wassermann](https://pages.saclay.inria.fr/demian.wassermann/) and Prof. [Olivier Colliot](https://www.aramislab.fr/). From 2022 to 2024, I was a postdoctoral fellow at Harvard Medical School working with Prof. [Sandy Wells](https://scholar.google.com/citations?user=DwXLsT8AAAAJ&hl=fr) and did my PhD under the supervision of [Prof. Tom Vercauteren](https://cai4cai.ml/) at King's College London. 
 
 
 {% include announcement.html %}

@@ -60,14 +60,14 @@
 @article{morozov20253d,
   title={A 3D Cross-modal Keypoint Descriptor for MR-US Matching and Registration},
   author={Morozov, Daniil and Dorent, Reuben and Haouchine, Nazim},
-  journal={arXiv preprint arXiv:2507.18551},
+  journal={IEEE Transactions on Medical Imaging},
   abstract={Intraoperative registration of real-time ultrasound (iUS) to preoperative Magnetic Resonance Imaging (MRI) remains an unsolved problem due to severe modality-specific differences in appearance, resolution, and field-of-view. To address this, we propose a novel 3D cross-modal keypoint descriptor for MRI-iUS matching and registration. Our approach employs a patient-specific matching-by-synthesis approach, generating synthetic iUS volumes from preoperative MRI. This enables supervised contrastive training to learn a shared descriptor space. A probabilistic keypoint detection strategy is then employed to identify anatomically salient and modality-consistent locations. During training, a curriculum-based triplet loss with dynamic hard negative mining is used to learn descriptors that are i) robust to iUS artifacts such as speckle noise and limited coverage, and ii) rotation-invariant . At inference, the method detects keypoints in MR and real iUS images and identifies sparse matches, which are then used to perform rigid registration. Our approach is evaluated using 3D MRI-iUS pairs from the ReMIND dataset. Experiments show that our approach outperforms state-of-the-art keypoint matching methods across 11 patients, with an average precision of . For image registration, our method achieves a competitive mean Target Registration Error of 2.39 mm on the ReMIND2Reg benchmark. Compared to existing iUS-MR registration approach, our framework is interpretable, requires no manual initialization, and shows robustness to iUS field-of-view variation. Code is available at https://github.com/morozovdd/CrossKEY.},
   bibtex_show={true},
   selected={false},
   preview={crosskey.gif},
-  code={https://github.com/tiago-assis/Deep-Biomechanical-Interpolator},
+  code={https://github.com/morozovdd/CrossKEY},
   pdf={https://arxiv.org/pdf/2507.18551},
-  year={2025}
+  year={2026}
 }
 
 @article{li2025medshapenet,
